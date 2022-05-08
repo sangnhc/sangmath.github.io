@@ -99,7 +99,11 @@
         const asValue = answer.value
         if (asValue === data[idx].answer) {
           idx++
-          show(idx)
+          if(idx === data.length) {
+            alert('Chúc Mừng Bạn Đã Về Đích!')
+          } else {
+            show(idx)
+          }
         }
       })
     }
