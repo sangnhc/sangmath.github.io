@@ -1,7 +1,6 @@
 [
   {
-    "question": "Cau hoi 1: Người ta hỏi Trung: "Bức ảnh trên tường là chân dung ai?". Trung trả lời: "Bố của người đó là người con trai duy nhất của ông bố người đang trả lời các bạn".
-Hỏi người trong ảnh là chân dung ai ?",
+    "question": "Cau hoi 1: Người ta hỏi Trung: Bức ảnh trên tường là chân dung ai?. Trung trả lời: Bố của người đó là người con trai duy nhất của ông bố người đang trả lời các bạn. Hỏi người trong ảnh là chân dung ai ?,"
     "answer": "1",
     "type": "text"
   },
