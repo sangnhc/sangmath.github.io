@@ -87,6 +87,9 @@
         question.textContent = value.question
         if (value.type === 'image') {
           img.src = '/image' + value.link
+          img.style.display = ''
+        } else {
+          img.style.display = 'none'
         }
         answer.value = ''
       }
