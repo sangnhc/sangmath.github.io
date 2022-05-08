@@ -76,8 +76,6 @@
     async function main() {
       const data = await (await fetch('/data.json')).json()
 
-      console.log('data', data)
-
       const questions = data.questions
       const id = data.id
 
