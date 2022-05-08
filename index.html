@@ -74,7 +74,7 @@
   <script>
 
     async function main() {
-      const data = await (await fetch('/data.json')).json()
+      const data = await (await fetch('/data.json')).json() // tuỳ chỉnh bộ câu hỏi
 
       const questions = data.questions
       const id = data.id
@@ -112,10 +112,15 @@
         if (asValue === questions[idx].answer) {
           idx++
           if (idx === questions.length) {
+            // thông báo khi trả lời đúng hết câu hỏi 
             alert('Chúc Mừng Bạn Đã Về Đích!')
           } else {
             show(idx)
           }
+        } else {
+
+          // thông báo khi nhập sai
+          alert('Bạn đã nhập sai')
         }
       })
     }
