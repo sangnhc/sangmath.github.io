@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Cau hoi 1",
+    "answer": "1",
+    "type": "text"
+  },
+  {
+    "question": "Cau hoi 2",
+    "answer": "2",
+    "type": "image",
+    "link": "/sample.jpg"
+  },
+  {
+    "question": "Cau hoi 3",
+    "answer": "3",
+    "type": "pdf"
+  }
+]
