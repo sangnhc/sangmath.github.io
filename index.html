@@ -76,14 +76,27 @@
     async function main() {
       const data = await (await fetch('/data.json')).json()
 
+      console.log('data', data)
+
+      const questions = data.questions
+      const id = data.id
+
       let idx = 0
+      const idLs = localStorage.getItem(id)
+      if (idLs) {
+        idx = idLs
+      } else {
+        localStorage.setItem(id, idx)
+      }
+
       const question = document.getElementById('question')
       const img = document.getElementById('img')
       const answer = document.getElementById('answer')
       const submit = document.getElementById('submit')
 
       const show = (i) => {
-        const value = data[i]
+        const value = questions[i]
+        localStorage.setItem(id, i)
         question.textContent = value.question
         if (value.type === 'image') {
           img.src = '/image' + value.link
@@ -97,9 +110,9 @@
 
       submit.addEventListener('click', () => {
         const asValue = answer.value
-        if (asValue === data[idx].answer) {
+        if (asValue === questions[idx].answer) {
           idx++
-          if(idx === data.length) {
+          if (idx === questions.length) {
             alert('Chúc Mừng Bạn Đã Về Đích!')
           } else {
             show(idx)

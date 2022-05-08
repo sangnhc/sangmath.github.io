@@ -1,28 +1,32 @@
-[
-  {
-    "question": "Cau hoi 1",
-    "answer": "1",
-    "type": "text"
-  },
-  {
-    "question": "Cau hoi 2",
-    "answer": "2",
-    "type": "image",
-    "link": "/sample.jpg"
-  },
-  {
-    "question": "Thế nhưng người nông dân thông minh đó đã trả lời một câu mà người lính biên phòng không thể xác định được đúng hay sai để hành tội anh ta theo đạo luật của nhà vua.Vậy người nông dân đó đã trả lời như thế nào?",
-    "answer": "4A",
-    "type": "text"
-  },
-  {
-    "question": "Cau hoi 3",
-    "answer": "3",
-    "type": "pdf"
-  },
-  {
-    "question": "Thế nhưng người nông dân thông minh đó đã trả lời một câu mà người lính biên phòng không thể xác định được đúng hay sai để hành tội anh ta theo đạo luật của nhà vua.Vậy người nông dân đó đã trả lời như thế nào?",
-    "answer": "4A",
-    "type": "text"
-  }
-]
+{
+  "id": "12321",
+  "questions": [
+    {
+      "question": "Cau hoi 1",
+      "answer": "1",
+      "type": "text"
+    },
+    {
+      "question": "Cau hoi 2",
+      "answer": "2",
+      "type": "image",
+      "link": "/sample.jpg"
+    },
+    {
+      "question": "Thế nhưng người nông dân thông minh đó đã trả lời một câu mà người lính biên phòng không thể xác định được đúng hay sai để hành tội anh ta theo đạo luật của nhà vua.Vậy người nông dân đó đã trả lời như thế nào?",
+      "answer": "4A",
+      "type": "text"
+    },
+    {
+      "question": "Cau hoi 3",
+      "answer": "3",
+      "type": "pdf"
+    },
+    {
+      "question": "Thế nhưng người nông dân thông minh đó đã trả lời một câu mà người lính biên phòng không thể xác định được đúng hay sai để hành tội anh ta theo đạo luật của nhà vua.Vậy người nông dân đó đã trả lời như thế nào?",
+      "answer": "4A",
+      "type": "text"
+    }
+  ]
+  
+}
