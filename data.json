@@ -3,6 +3,12 @@
   "questions": [
     {
       "question": "Cau hoi 1",
+      "answer": "abc",
+      "type": "image",
+      "link": "/bt1.png"
+    },
+    {
+      "question": "Cau hoi 1",
       "answer": "1",
       "type": "text"
     },
