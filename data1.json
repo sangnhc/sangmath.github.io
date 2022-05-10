@@ -3,11 +3,71 @@
   "questions": [
     {
       "question": "Cau hoi 1",
-      "answer": "abc",
+      "answer": "24222523",
       "type": "image",
-      "link": "/bt1.png"
+      "link": "/1.png"
     },
-    
+    {
+      "question": "Cau hoi 2",
+      "answer": "5",
+      "type": "image",
+      "link": "/3.png"
+    },
+    {
+      "question": "Cau hoi 3",
+      "answer": "3316",
+      "type": "image",
+      "link": "/6.png"
+    },
+    {
+      "question": "Cau hoi 4",
+      "answer": "5h25",
+      "type": "image",
+      "link": "/18.png"
+    },
+    {
+      "question": "Cau hoi 5",
+      "answer": "8h05",
+      "type": "image",
+      "link": "/32.png"
+    },
+    {
+      "question": "Cau hoi 6",
+      "answer": "44",
+      "type": "image",
+      "link": "/34.png"
+    },{
+      "question": "Cau hoi 7",
+      "answer": "5h05",
+      "type": "image",
+      "link": "/38.png"
+    },{
+      "question": "Cau hoi 8",
+      "answer": "2h45",
+      "type": "image",
+      "link": "/39.png"
+    },{
+      "question": "Cau hoi 9",
+      "answer": "14",
+      "type": "image",
+      "link": "/40.png"
+    },{
+      "question": "Cau hoi 10",
+      "answer": "9h15",
+      "type": "image",
+      "link": "/41.png"
+    },{
+      "question": "Cau hoi 11",
+      "answer": "21",
+      "type": "image",
+      "link": "/48.png"
+    },{
+      "question": "Cau hoi 12",
+      "answer": "8812",
+      "type": "image",
+      "link": "/55.png"
+    }
+
   ]
-  
+
 }
