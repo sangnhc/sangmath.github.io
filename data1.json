@@ -68,7 +68,12 @@
       "link": "/55.png"
     },{
       "question": "Câu hỏi 13",
-      "answer": "8812",
+      "answer": "52416",
+      "type": "image",
+      "link": "/71.png"
+    },{
+      "question": "Câu hỏi 14",
+      "answer": "52416",
       "type": "image",
       "link": "/71.png"
     }
